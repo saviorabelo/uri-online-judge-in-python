@@ -4,7 +4,7 @@ def encaixa(a,b):
     if len(a) < len(b):
         return False
     elif len(a) == len(b):
-        if a==b:
+        if a == b:
             return True
         else:
             return False
